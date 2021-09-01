@@ -1,0 +1,152 @@
+body {
+    overflow-x: hidden;
+    background: #EAEAEA;
+}
+
+.div__contenedor {
+    height: 100vh;
+    background: #F4F4F4
+}
+
+.div__logo {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.div__titulo {
+    border-radius: 20px;
+    border: 10px #2897FF outset;
+    box-shadow: black 2px 5px 10px;
+    padding-bottom: 10px;
+    flex-grow: 2;
+    background-color: white;
+}
+
+.h2__titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 150px;
+}
+
+.h2__titulo1 {
+    display: inline-block;
+    color: cornsilk;
+    border: 5px rgb(35, 147, 252) solid;
+    border-radius: 25px;
+    background-color: #2897FF;
+    padding: 0px 10px 10px 10px;
+    box-shadow: black 2px 3px 11px;
+}
+
+.div__formulario {
+    box-shadow: black 0.5px 1px 6px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.boton {
+    font-size: 25px;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+}
+
+.boton1 {
+    background: #2897FF;
+}
+
+.boton2 {
+    background-color: rgb(30, 172, 23);
+}
+
+a,
+a:hover {
+    color: #333
+}
+
+.a_registerLink:focus{
+    outline: none;
+}
+
+.div__tituloFormulario {
+    font-size: 40px;
+    display: inline-block;
+}
+
+
+
+.p__titulo {
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.now {
+    border-radius: 20px;
+    background-color: #2897FF;
+    color: white;
+    padding: 3px;
+}
+
+@media only screen and (max-width:1300px) {
+    .h2__titulo {
+        font-size: 115px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .h2__titulo {
+        font-size: 90px;
+    }
+    .div__formulario {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .h2__titulo {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .h2__titulo {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .h2__titulo {
+        font-size: 60px;
+    }
+    .p__titulo {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-height:370px) {
+    .h2__titulo {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-height:370px) {
+    .div__titulo {
+        height: 80vh;
+    }
+    .div__formulario {
+        height: 70vh;
+    }
+    .h2__titulo {
+        font-size: 100px;
+    }
+    .p__titulo {
+        font-size: 15px;
+    }
+    .form_formulario {
+        font-size: 10px;
+    }
+    .form_input {
+        margin-left: 30px;
+    }
+}

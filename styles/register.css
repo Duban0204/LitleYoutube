@@ -1,0 +1,20 @@
+.div_form{
+    margin-top: 27px; 
+    border-radius: 10px;
+    box-shadow: black 0.5px 1px 6px;
+    /* padding-top: 40px; */
+}
+.div_text{
+    margin-top: 10px;
+}
+
+.span_text-sec{
+    color: white; 
+    padding: 3px; 
+    background-color: #2897FF; 
+    border-radius: 25px;
+}
+
+.div_form-register{
+    margin-top: 20px;
+}
